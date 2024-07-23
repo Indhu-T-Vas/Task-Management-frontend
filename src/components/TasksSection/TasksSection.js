@@ -10,7 +10,7 @@ const TasksSection = ({ tasks, taskApi }) => {
   const editApi = async (id, data) => {
     try {
       const response = await axios.put(
-        `http://localhost:4500/api/task/${id}`,
+        `https://task-management-backend-btge.onrender.com/api/task/${id}`,
         data,
         {
           headers: {

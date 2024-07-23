@@ -23,7 +23,7 @@ const ViewTaskModel = ({
     e.preventDefault();
     try {
       const response = await axios.get(
-        `http://localhost:4500/api/task/${task._id}`,
+        `https://task-management-backend-btge.onrender.com/api/task/${task._id}`,
 
         {
           headers: {

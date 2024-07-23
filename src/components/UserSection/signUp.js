@@ -52,13 +52,16 @@ const SignUp = () => {
     console.log(e);
     e.preventDefault();
     try {
-      const signupApi = await axios.post("http://localhost:4500/api/user/", {
-        firstName: firstName,
-        lastName: lastName,
-        email: email,
-        password: password,
-        confirmPassword: confirmPassword,
-      });
+      const signupApi = await axios.post(
+        "https://task-management-backend-btge.onrender.com/api/user/",
+        {
+          firstName: firstName,
+          lastName: lastName,
+          email: email,
+          password: password,
+          confirmPassword: confirmPassword,
+        }
+      );
 
       console.log(14, signupApi);
 

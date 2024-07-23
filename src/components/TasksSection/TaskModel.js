@@ -44,13 +44,13 @@ export default function TaskModel({
       let response;
       if (task?._id) {
         response = await axios.put(
-          `http://localhost:4500/api/task/${task._id}`,
+          `https://task-management-backend-btge.onrender.com/api/task/${task._id}`,
           { ...formData, user: userInfo._id },
           config
         );
       } else {
         response = await axios.post(
-          "http://localhost:4500/api/task/create",
+          "https://task-management-backend-btge.onrender.com/api/task/create",
           { ...formData, user: userInfo._id },
           config
         );
