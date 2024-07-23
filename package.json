@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://Indhu-T-Vas.github.io/Task-Management-frontend",
+  "homepage": "https://indhu-t-vas.github.io/Task-Management-frontend",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
