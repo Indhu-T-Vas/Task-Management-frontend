@@ -10,7 +10,7 @@ function App() {
   return (
     <GoogleOAuthProvider clientId="849352318712-bvdsm30983kecdg352p548obdtr0hvcd.apps.googleusercontent.com">
       <Routes>
-        <Route path="/Task-Management-frontend" element={<SignUp />} />
+        <Route path="/" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route
           path="/login"
